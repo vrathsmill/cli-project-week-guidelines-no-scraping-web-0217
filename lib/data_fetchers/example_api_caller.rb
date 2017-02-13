@@ -9,9 +9,8 @@ class Fetcher
   end
 
 
-
   def make_articles
-    # input = get_input
+
     articles = []
     result = []
     all_articles = self.article_data["response"]["results"]
